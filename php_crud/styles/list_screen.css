@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+.top-bar-search {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    padding: 0;
+    background-color: rgb(7, 41, 99);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-field {
+    width: 400px;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.search button {
+    float: left;
+    width: 20%;
+    height: 42px;
+    padding: 10px;
+    background: #f2f2f2;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+form.search button:hover {
+    background: #f2f2f2;
+}
+
+.search-image {
+    height: 20px;
+}
+
+.box {
+    height: 600px;
+    width: 60%;
+    padding: 50px;
+    border: 5px solid rgb(7, 41, 99);
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    overflow: auto;
+}
+
+.list-item {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(7, 41, 99, 0.197);
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.list-part {
+    width: 18%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#edit-field:hover {
+    background-color: rgba(7, 41, 99, 0.3);
+    font-weight: bold;
+}
+
+#id-field {
+    width: 10%;
+    height: 100%;
+}
+
+.box-bottom {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.register-button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(7, 41, 99);
+    border-radius: 10px;
+}
+
+.register-button:hover {
+    background-color: rgba(7, 41, 99, 0.23);
+    font-weight: bold;
+}
+
+#table-title {
+    width: 100%;
+    color: white;
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgba(7, 41, 99, 0.817);
+}
